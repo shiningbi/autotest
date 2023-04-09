@@ -6,7 +6,6 @@ class Test_mimacuowu:
     def test_ui_001(self):
         print('\n用例UI-001')
         alertText=loginAndCheck(None,'88888888')
-
         assert alertText=='请输入用户名'
 
     def test_ui_002(self):
